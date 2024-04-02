@@ -22,8 +22,13 @@
 
 
 
-# 3) Vypiš největší číslo ze tří zadaných čísel
+# # 3) Vypiš největší číslo ze tří zadaných čísel
 # def nejvetsi_cislo(cislo, cislo2, cislo3):
+
+#     cislo = int(cislo)
+#     cislo2 = int(cislo2)
+#     cislo3 = int(cislo3)
+
 
 #     if cislo > cislo2 and cislo > cislo3:
 #         return(cislo)
@@ -34,9 +39,6 @@
 #     elif cislo3 > cislo and cislo3 > cislo2:
 #         return(cislo3)
 
-# # cislo = int(input("Zadej číslo: "))
-# # cislo2 = int(input("Zadej druhé číslo: "))
-# # cislo3 = int(input("Zadej třetí číslo: "))
     
 # print(nejvetsi_cislo(input("Zadej číslo: "), input("Zadej druhé číslo: "), input("Zadej třetí číslo: ")))
 
@@ -87,17 +89,16 @@
 # 6) Funkce spoj_stringy, která vrátí nový string vytvořený spojením dvou zadaných stringů seznamem. 
 #Jednotlivé stringy jsou spojeny definovaným pojítkem. Využijte i vlastní implementaci bez funkce join().
 
-# def veta():
+# def stringy():
 #     stringy = []
 #     strink = str(input("Napiš slovo nebo větu: "))
 #     string_2 = str(input("Napiš druhé slovo nebo větu: "))
 
 #     stringy.append(strink)
 #     stringy.append(string_2)
-#     veta = " ".join(stringy)
-#     return (veta)
+#     return (stringy)
 
-# print(veta())
+# print(*stringy(), sep="(☞ ͡° ͜ʖ ͡°)☞ ", end = ".")
 
 
 
@@ -118,6 +119,4 @@
 #     veta = f"{strink} {face} {string_2}."
 #     return (veta)
 # print(veta())
-
-
 
